@@ -1,0 +1,44 @@
+body{
+    margin: 60px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    border: 1px solid rgb(255, 223, 228);
+    padding: 15px 35px 40px;
+    background-color: rgb(255, 223, 228);
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.one{
+    display: flex;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+button{
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(255, 69, 100);
+    border: none;
+}
+.next{
+    text-align: center;
+    padding: 15px;
+}
+#next{
+    background-color: rgb(7, 124, 33);
+    padding: 13px 20px;
+    font-size: 20px;
+}
+#next:hover{
+    transform: scale(1.1);
+    background-color: rgb(3, 61, 3);
+}
